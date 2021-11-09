@@ -14,6 +14,7 @@ const aboutMe = {
         city: 'Portland',
         quadrant: 'SE'
     },
+    favoriteColor: '#d3d3d3',
     diet: 'vegan',
     lgbtq: true,
     hobbies: ['photography', 'bike rides', 'roller skating', 'houseplants', 'hiking', 'exploring', 'coding'],
@@ -38,7 +39,8 @@ const aboutMe = {
         name: 'Kurt',
         type: 'goldfish',
         hungry: true
-    } ]
+    } ],
+    hp: 100
 }; 
 
 console.log(aboutMe.name.first)
@@ -46,6 +48,7 @@ console.log(aboutMe.name.pronouns)
 console.log(aboutMe.birthday.month + ' ' + aboutMe.birthday.day + 'rd')
 console.log(aboutMe.birthday.zodiac)
 console.log(aboutMe.location.quadrant + ' ' + aboutMe.location.city)
+console.log(aboutMe.favoriteColor)
 console.log(aboutMe.diet)
 
 if (aboutMe.lgbtq === true) {
