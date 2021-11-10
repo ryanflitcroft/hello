@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,80 +9,61 @@
     <link rel="stylesheet" href="https://use.typekit.net/mjb5dxx.css">
     <title>Hello Cohort</title>
 </head>
+
 <body>
     <header>
-        <section class="card">
-            <div>
-                <span>&lt; &gt; </span>
-                <h1>Hello Cohort</h1>
-                <span>&lt;/ &gt;</span>
-            </div>
-            <p>Let's get to know each other...</p>
+        <section class="header-card">
+            <span>&lt; &gt; </span>
+            <h1>Hello Cohort</h1>
+            <span>&lt;/ &gt;</span>
+        </section>
+        <section class="bg-style">
+            <div></div>
+            <div></div>
+            <div></div>
         </section>
     </header>
 
     <main>
         <section class="section-a">
             <div>
-                <code id="code-1">
+                <span id="about-me">Hi =]</span>
+                <input type="button" value ="Get to know me" id="button">
+            </div>
+
+            <div>
 <pre>
+                <code>
 const aboutMe = {
     name: {
         first: 'Ryan',
         last: 'Flitcroft',
         pronouns: 'he/him'
     },
-</pre>
-                </code>
-                <code id="code-2">
-<pre>
+
     birthday {
         month: April,
         day: 3,
         zodiac: 'Aries'
     },
-</pre>
-                </code>
-                <code id="code-3">
-<pre>
+
     location: {
         state: 'Oregon',
         city: 'Portland',
         quadrant: '<abbr title="southeast">SE</abbr>'
     },
-</pre>
-                </code>
-                <code id='code-4'>
-<pre>
-    favoriteColor: '#d3d3d3',
-</pre>
-                                    </code>
-                <code id="code-5">
-<pre>
+
+    favoriteColor: ['#000', '#fff', '#d3d3d3'],
     diet: 'vegan',
-</pre>
-                </code>
-                <code id="code-6">
-<pre>
-    <abbr title="lesbian, gay, bisexual, transgender, queer">lgbt</abbr>: true,
-</pre>
-                </code>
-                <code id="code-7">
-<pre>
+
     hobbies: ['photography', 'bike rides', 'roller skating', 'houseplants', 'hiking', 'exploring', 'coding'],
-</pre>
-                </code>
-                <code id="code-8">
-<pre>
+
     partner: {
         name: 'Nic',
         <abbr title="define the relationship">dtr</abbr>: 'husband',
         years: 10
     },
-</pre>
-                </code>
-                <code id="code-9">
-<pre>
+
     pets: [ {
         name: 'Lissie',
         type: 'dog',
@@ -101,14 +83,37 @@ const aboutMe = {
         type: 'goldfish',
         hungry: true
     } ],
-</pre>
-                </code>
-                <code id="code-10">
-<pre>
-    <abbr title="hit-points">hp</abbr>: 100;
+
+    occupations: [ {
+        where: 'Starbucks',
+        type: 'coffee shop',
+        start: 2011,
+        end: 2013
+    },
+
+    {
+        where: 'Steam',
+        type: 'bathhouse',
+        start: 2013,
+        end: 2017
+    },
+
+    {
+        where: 'Stag',
+        type: 'strip club',
+        start: 2017,
+        end: 2018
+    },
+
+    {
+        where: 'Bishops',
+        type: 'barbershop',
+        start: 2018,
+        end: 2021
+    }]
 };
-</pre>
                 </code>
+</pre>
             </div>
 
         </section>
@@ -116,9 +121,10 @@ const aboutMe = {
     </main>
 
     <footer>
-
+        <a href="https://github.com/ryanflitcroft" target="_blank">{  github.com/ryanflitcroft  }</a>
     </footer>
-    
+
     <script type="module" src="/app.js"></script>
 </body>
+
 </html>
