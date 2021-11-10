@@ -95,7 +95,7 @@ const myOccupation1 = `I worked in a ${aboutMe.occupations[0].where} ${aboutMe.o
 const myOccupation2 = `...a ${aboutMe.occupations[1].type} called ${aboutMe.occupations[1].where}...`;
 const myOccupation3 = `...a ${aboutMe.occupations[2].type} called ${aboutMe.occupations[2].where}...`;
 const mostRecent = `...and most recently...`
-const myOccupation4 = `I worked at ${aboutMe.occupations[3].where} ${aboutMe.occupations[3].type}.`;
+const myOccupation4 = `I worked in a ${aboutMe.occupations[3].type} called ${aboutMe.occupations[3].where}.`;
 const arrayEnd = `< /  >`;
 
 
