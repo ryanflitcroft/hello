@@ -96,9 +96,10 @@ const myOccupation2 = `...a ${aboutMe.occupations[1].type} called ${aboutMe.occu
 const myOccupation3 = `...a ${aboutMe.occupations[2].type} called ${aboutMe.occupations[2].where}...`;
 const mostRecent = `...and most recently...`
 const myOccupation4 = `I worked at ${aboutMe.occupations[3].where} ${aboutMe.occupations[3].type}.`;
-const close = `< /  >`
+const arrayEnd = `< /  >`;
 
-const spanArray = [myName, myPronouns, myBirthday, mySign, myLocation, favColor, favColor2, myHobby0, myHobby1, myHobby2, myHobby3, myHobby4, myHobby5, myPartner, myPets, petNames, beforeAlchemy, myOccupation1, myOccupation2, myOccupation3, mostRecent, myOccupation4, close]
+
+const spanArray = [myName, myPronouns, myBirthday, mySign, myLocation, favColor, favColor2, myHobby0, myHobby1, myHobby2, myHobby3, myHobby4, myHobby5, myPartner, myPets, petNames, beforeAlchemy, myOccupation1, myOccupation2, myOccupation3, mostRecent, myOccupation4, arrayEnd]
 
 let i = 0;
 button.addEventListener('click', () => {
